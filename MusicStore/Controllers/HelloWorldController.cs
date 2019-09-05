@@ -12,5 +12,9 @@ namespace MusicStore.Controllers
         {
             return "Neo...the Matrix has you...";
 		}
+		public IActionResult WhiteRabbit()
+		{
+			return View();
+		}
     }
 }
